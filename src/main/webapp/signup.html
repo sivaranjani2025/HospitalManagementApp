@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Hospital Management App</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #d32f2f; /* Red background */
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Form and Input Styles */
+        form {
+            background-color: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form input[type="email"],
+        form input[type="password"] {
+            font-size: 16px;
+        }
+
+        form button {
+            background-color: #d32f2f; /* Red background */
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        form button:hover {
+            background-color: #c2185b; /* Darker red for hover */
+        }
+
+        /* Heading Styles */
+        h1 {
+            color: #d32f2f; /* Red text */
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+</nav>
+
+<h1>Signup to Hospital Management App</h1>
+
+<form action="signup" method="POST">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

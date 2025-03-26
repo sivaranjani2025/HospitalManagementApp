@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF0000"> <!-- Set the browser's theme color -->
+    <title>Login to Hospital Management APP</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #d32f2f; /* Red background */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styling */
+        h1 {
+            text-align: center;
+            color: #d32f2f;
+            margin-top: 50px;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #d32f2f;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input:focus {
+            border-color: #d32f2f;
+            outline: none;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #d32f2f;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #c2185b;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Signup</a>
+    </nav>
+    <h1>Login to Hospital Management APP</h1>
+    <form action="login">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
