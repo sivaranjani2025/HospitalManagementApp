@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Patient History</title>
+<title>All Patients</title>
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -45,9 +45,6 @@
         background-color: #fff;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-    table, th, td {
-        border: 1px solid #d43f3a; /* Red border for table */
-    }
 
     th, td {
         padding: 12px;
@@ -84,7 +81,7 @@
 		<a href="dashboard.html">Dashboard</a> 
 		<a href="login.html">Logout</a>
 	</nav>
-	<h1>Patient History</h1>
+	<h1>All Patients</h1>
 	<table>
 		<tr>
 			<th>Patient id</th>

@@ -7,52 +7,34 @@
 <meta charset="UTF-8">
 <title>All Doctors</title>
 <style>
-    /* Red Color Theme */
     body {
-        background-color: #f8d7da; /* Light red background */
         font-family: Arial, sans-serif;
-        color: #721c24; /* Dark red text */
-    }
-    
-    nav {
-        background-color: #f5c6cb; /* Light red background for nav */
-        padding: 10px;
-        text-align: right;
-    }
-    
-    nav a {
-        color: #721c24; /* Dark red links */
-        text-decoration: none;
-        margin: 0 15px;
-    }
-
-    h1 {
-        color: #721c24; /* Dark red title */
-        text-align: center;
+        background-color: #f2f2f2;
     }
 
     table {
-        width: 100%;
-        margin: 20px 0;
+        width: 50%;
         border-collapse: collapse;
+        margin: 20px auto;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-     table, th, td {
+   table, th, td {
         border: 1px solid #d32f2f; /* Red border for table */
     }
-  
-
     th, td {
+        border: 1px solid #e2e2e2;
         padding: 12px;
-        text-align: left;
+        text-align: center;
     }
 
     th {
-        background-color: #f5c6cb; /* Light red background for header */
-        color: #721c24; /* Dark red text for headers */
+        background-color: #ff4d4d; /* Red theme for headers */
+        color: white;
     }
 
     td {
-        background-color: #fff3f3; /* Lighter red background for table rows */
+        background-color: #f8d7da; /* Light red for table rows */
     }
 
     button {
