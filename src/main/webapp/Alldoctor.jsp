@@ -7,34 +7,52 @@
 <meta charset="UTF-8">
 <title>All Doctors</title>
 <style>
+    /* Red Color Theme */
     body {
+        background-color: #f8d7da; /* Light red background */
         font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
+        color: #721c24; /* Dark red text */
+    }
+    
+    nav {
+        background-color: #f5c6cb; /* Light red background for nav */
+        padding: 10px;
+        text-align: right;
+    }
+    
+    nav a {
+        color: #721c24; /* Dark red links */
+        text-decoration: none;
+        margin: 0 15px;
     }
 
-    table {
-        width: 50%;
-        border-collapse: collapse;
-        margin: 20px auto;
-        background-color: #fff;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-   table, th, td {
-        border: 1px solid #d32f2f; /* Red border for table */
-    }
-    th, td {
-        border: 1px solid #e2e2e2;
-        padding: 12px;
+    h1 {
+        color: #721c24; /* Dark red title */
         text-align: center;
     }
 
+    table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+    }
+     table, th, td {
+        border: 1px solid #d32f2f; /* Red border for table */
+    }
+  
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+
     th {
-        background-color: #ff4d4d; /* Red theme for headers */
-        color: white;
+        background-color: #f5c6cb; /* Light red background for header */
+        color: #721c24; /* Dark red text for headers */
     }
 
     td {
-        background-color: #f8d7da; /* Light red for table rows */
+        background-color: #fff3f3; /* Lighter red background for table rows */
     }
 
     button {
